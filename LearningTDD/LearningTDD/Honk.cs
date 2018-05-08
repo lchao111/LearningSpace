@@ -18,12 +18,13 @@ namespace LearningTDD
             return isValidate;
         }
 
-        public String Noise
+        public ISound Sound
         {
             get
             {
                 throw new NotImplementedException("not implemented yet");
             }
+
         }
     }
 }

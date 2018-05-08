@@ -12,7 +12,7 @@ namespace LearningTDD
         public string MakeNoise(int n)
         {
             var isValid = _validator.IsValidNumber(n);
-            if (_validator.Noise != "Honk")
+            if (_validator.Sound.Noise.NoiseSound != "Honk")
             {
                 return "Not a Honk!";
             }

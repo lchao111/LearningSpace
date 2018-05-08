@@ -9,6 +9,6 @@ namespace LearningTDD
         void IsValidNumber(int n, out bool IsValidate);
         bool IsValidNumber(int n);
 
-        string Noise { get; }
+        ISound Sound { get; }
     }
 }
