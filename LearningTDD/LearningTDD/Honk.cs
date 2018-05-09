@@ -14,8 +14,9 @@ namespace LearningTDD
 
         public bool IsValidNumber(int number)
         {
-            var isValidate = number % 100 == 0 ? true : false;
-            return isValidate;
+            throw new NotImplementedException("Not implemented");
+            //var isValidate = number % 100 == 0 ? true : false;
+            //return isValidate;
         }
 
         public ISound Sound
@@ -24,7 +25,7 @@ namespace LearningTDD
             {
                 throw new NotImplementedException("not implemented yet");
             }
-
         }
+
     }
 }

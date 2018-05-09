@@ -10,5 +10,13 @@ namespace LearningTDD
         bool IsValidNumber(int n);
 
         ISound Sound { get; }
+
     }
+
+    public enum ValidationMode
+    {
+        Quick,
+        Detail
+    }
+
 }

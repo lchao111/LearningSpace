@@ -53,5 +53,15 @@ namespace LearningTDD.UnitTest
         {
             return "Honk";
         }
+
+        [Fact]
+
+        public void ShouldValidateIfTheNoiseIsHonk()
+        {
+            var mockValidator = new Mock<IHonk>();
+            mockValidator.Setup(x => x.Sound.Noise.NoiseSound).Returns("Honk");
+            FizzBuzzPractice fbp = new FizzBuzzPractice(mockValidator.Object);
+            var 
+        }
     }
 }
